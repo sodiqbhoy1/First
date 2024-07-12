@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fade-out {
+    animation: fadeOut 2s forwards;
+}
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
